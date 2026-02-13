@@ -72,20 +72,20 @@ gcc swap_vowels.c -o swap_vowels
 ```
 
 ### 4. C#
-**Location**: [`csharp/SwapVowels.cs`](csharp/SwapVowels.cs)
+**Location**: [`csharp/Program.cs`](csharp/Program.cs)
 
 **Run**:
 ```bash
 cd csharp
-csc SwapVowels.cs
-./SwapVowels.exe  # Windows
-mono SwapVowels.exe  # Linux/Mac
+dotnet run
 ```
 
-Or with .NET:
+Or with C# compiler:
 ```bash
 cd csharp
-dotnet run
+csc Program.cs
+./Program.exe  # Windows
+mono Program.exe  # Linux/Mac
 ```
 
 ### 5. JavaScript
